@@ -1,6 +1,6 @@
 # cv-dashboard
 
-A small public site and a skill that show how a repository health dashboard works: a read-only sweep of a set of
+A small public site and a procedure that show how a repository health dashboard works: a read-only sweep of a set of
 repositories, a score for each, and a summary a person can read in a minute. The data on the page is generic example
 content. It describes a method, not any particular setup.
 
@@ -20,7 +20,7 @@ export any restricted files it needs.
 
 ## What it shows
 
-- **A dashboard skill.** [skill/dashboard/SKILL.md](skill/dashboard/SKILL.md) is a generic `/dashboard` procedure:
+- **A dashboard procedure.** [docs/DASHBOARD-PROCEDURE.md](docs/DASHBOARD-PROCEDURE.md) is a generic run:
   refresh, open, summarise, state the limits, name the next actions.
 - **An example sweep.** A table of example repositories with a verdict, a hygiene score, and a completeness score.
 - **A task loop.** Scope, plan, build, check, document.
@@ -30,9 +30,9 @@ export any restricted files it needs.
 
 ## Documentation
 
-- [skill/dashboard/SKILL.md](skill/dashboard/SKILL.md): the dashboard procedure, step by step
+- [docs/DASHBOARD-PROCEDURE.md](docs/DASHBOARD-PROCEDURE.md): the dashboard procedure, step by step
 - [docs/WORKFLOWS.md](docs/WORKFLOWS.md): the task loop, the publish gate, and the runbook shape
-- [docs/USER-GUIDE.md](docs/USER-GUIDE.md): viewing, adapting, and using the skill
+- [docs/USER-GUIDE.md](docs/USER-GUIDE.md): viewing, adapting, and using the procedure
 - [docs/SECURITY.md](docs/SECURITY.md): what this repository holds, what it never holds, and the pre-commit checklist
 
 ## Secrets and addresses

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>cv-dashboard</title>
-  <meta name="description" content="A generic repository health dashboard and the dashboard skill procedure behind it: sweep, score, summarise.">
+  <meta name="description" content="A generic repository health dashboard and the procedure behind it: sweep, score, summarise.">
   <style>
     :root {
       --bg:#f7f8fa; --panel:#ffffff; --fg:#1a1d24; --muted:#5c6470; --line:#d6dae1;
@@ -63,7 +63,7 @@
 <body>
 <main>
   <h1>cv-dashboard</h1>
-  <p class="sub">A repository health dashboard and the skill procedure behind it: sweep, score, summarise. All data on this page is generic example content.</p>
+  <p class="sub">A repository health dashboard and the procedure behind it: sweep, score, summarise. All data on this page is generic example content.</p>
   <div class="badges">
     <span class="badge">Read-only sweep</span>
     <span class="badge ok">Checks before publish</span>
@@ -73,13 +73,13 @@
 
   <h2>At a glance</h2>
   <div class="grid">
-    <div class="card"><div class="stat">5</div><h3>Steps in the dashboard skill</h3><p>Refresh, open, summarise, state limits, next actions.</p></div>
+    <div class="card"><div class="stat">5</div><h3>Steps in a dashboard run</h3><p>Refresh, open, summarise, state limits, next actions.</p></div>
     <div class="card"><div class="stat">7</div><h3>Checks in the publish gate</h3><p>Run before anything is committed or made public.</p></div>
     <div class="card"><div class="stat">3</div><h3>Runbook sections</h3><p>Workstation, target, verify. Always in that order.</p></div>
     <div class="card"><div class="stat">2</div><h3>Tests per control</h3><p>One that must fail and one that must pass.</p></div>
   </div>
 
-  <h2>How the <code>/dashboard</code> skill runs</h2>
+  <h2>How a dashboard run works</h2>
   <ol class="steps">
     <li><strong>Refresh</strong><span>Run a read-only sweep of the repository list, then rebuild the page. Stop on any error.</span></li>
     <li><strong>Open</strong><span>Open the generated page in the default browser.</span></li>
@@ -87,7 +87,7 @@
     <li><strong>State the limits</strong><span>The sweep reads committed files, not the hosting service live. Scores are triage heuristics.</span></li>
     <li><strong>Next actions</strong><span>Name the smallest set of changes that moves each "not ready" repository to "ready".</span></li>
   </ol>
-  <p class="note">The procedure is in <a href="skill/dashboard/SKILL.md">skill/dashboard/SKILL.md</a>. It ships the steps, not the tools.</p>
+  <p class="note">The full procedure is in <a href="docs/DASHBOARD-PROCEDURE.md">docs/DASHBOARD-PROCEDURE.md</a>. It describes the steps, not the tools.</p>
 
   <h2>Example sweep</h2>
   <div class="table-wrap">

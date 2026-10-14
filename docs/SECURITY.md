@@ -1,12 +1,12 @@
 # Security
 
-This repository holds documentation, one skill procedure, and one static page. It runs no service and stores no
+This repository holds documentation and one static page. It runs no service and stores no
 data. Credentials, addresses, and machine details are kept outside it, in local-only locations.
 
 ## What it holds
 
 - Generic descriptions of a working method.
-- A generic dashboard skill procedure with no tools and no output.
+- A generic dashboard procedure with no tools and no output.
 - Example checklists and an example table with fictional repositories.
 - A static page with inline example content and no scripts that call out.
 

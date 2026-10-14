@@ -9,15 +9,14 @@ Day-to-day reference. The site is a set of static files with no service, databas
 | Locally | Open `index.html` in a browser |
 | Hosted | Serve the repository root with any static file host |
 
-## Using the skill
+## Using the procedure
 
 | What | Where |
 |---|---|
-| The procedure | `skill/dashboard/SKILL.md` |
-| Install | Copy the `dashboard` folder into your agent's skills folder, then adapt the inputs table to your own tools |
-| Run | Type `/dashboard` in your agent |
+| The procedure | `docs/DASHBOARD-PROCEDURE.md` |
+| Adapt | Paste it into your own coding agent, then change the inputs table to your own tools |
 
-The skill is a procedure only. Write your own sweep and build tools, and keep their output out of this repository.
+The procedure is text only. Write your own sweep and build tools, and keep their output out of this repository.
 
 ## Changing the content
 
